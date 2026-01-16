@@ -1,0 +1,38 @@
+:root {
+  --bg-main: #f8fafc;
+  --card-bg: #ffffff;
+  --accent: #c7d2fe;
+  --accent-soft: #eef2ff;
+  --text-main: #1f2933;
+  --text-muted: #6b7280;
+  --border-soft: #e5e7eb;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
+input, select, button {
+  font-family: inherit;
+  font-size: 14px;
+}
+
+button {
+  background-color: var(--accent);
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
